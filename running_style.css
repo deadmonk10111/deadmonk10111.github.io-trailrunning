@@ -1,0 +1,107 @@
+/*
+	
+	BackGround
+
+	High Contrast - Text
+
+	Compliment - Text
+
+	##5B5C57  Grey
+
+	#9BBBCA  Blue
+
+	##596B3F  Forest Green
+
+	#C77F82 Burnt Pink
+
+	#EEEEEA Milk
+
+	#D1D0CC light grey
+
+*/
+/* selector  choosing html elements*/
+body{
+	background-color: #9BBBCA;
+	padding: 0px 24px 18px 24px;
+}
+
+a{
+	color: #596B3F;
+	font-weight: bold;
+}
+a:hover {
+	color: #EEEEEA;	
+}
+
+p.opening{
+	font-size: 25px;
+	font-weight: bold;
+	text-indent:100px;
+	text-align: center;
+	text-shadow: 1px 2px #C77F82;
+}
+
+p.p2{
+
+}
+
+
+h1,h2{
+	color: #A3513A;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+p,li{
+	color: #1F2F1E;
+	font-size: 20px;
+}
+
+li{
+	padding-right: 1.2em;
+	overflow: hidden;
+	text-align-last: center;
+}
+
+p.picture{
+	margin:auto;
+	width:50%;}
+
+p.picture1{
+	text-align: center;
+}
+
+img {
+	border-radius: 45px;
+}
+
+
+th,td {
+	text-align: center;
+	border-color: #D1D0CC;
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	padding: 15px 18px 15px 18px;
+}
+p.markers{
+	color:#4A5932;
+
+}
+table{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/*
+block display 
+specified width
+left and right margins must be equal - set both to auto
+*/
+
+
